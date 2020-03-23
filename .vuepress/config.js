@@ -34,17 +34,17 @@ module.exports = {
 				collapsable: false,
 children: ['/lab/lab-dev-spaces-connect','/blog/tip256','/blog/tip255','/lab/lab.md']
 			},
-			{
-				title: '.NET',
-				collapsable: true,
-				children: ['/blog/tip228','/blog/tip113','/blog/tip144','/blog/tip54', '/blog/tip55', '/blog/tip56', '/blog/tip68']
-			},				
-			{
+			// {
+			// 	title: '.NET',
+			// 	collapsable: true,
+			// 	children: ['/blog/tip228','/blog/tip113','/blog/tip144','/blog/tip54', '/blog/tip55', '/blog/tip56', '/blog/tip68']
+			// },				
+			// {
 
-				title: 'VNET',
-				collapsable: true,
-				children: ['/blog/tip182','/blog/tip224']
-			},
+			// 	title: 'VNET',
+			// 	collapsable: true,
+			// 	children: ['/blog/tip182','/blog/tip224']
+			// },
 		],
 		nav: [
 			{ text: 'Home', link: '/' },
@@ -56,29 +56,29 @@ children: ['/lab/lab-dev-spaces-connect','/blog/tip256','/blog/tip255','/lab/lab
 		//	logo: '/vintage.png'
 	},
 	plugins: [
-		[
-			'@vuepress/google-analytics',
-			{
-				ga: 'UA-17277477-4' // UA-00000000-0
-			}
-		],
-		[
-			'@vuepress/search',
-			{
-				searchMaxSuggestions: 10
-			}
-		],
-		[
-			'vuepress-plugin-rss',
-			{
-				base_url: '/',
-				site_url: 'https://microsoft.github.io/AzureTipsAndTricks',
-				copyright: '2019 Microsoft',
-				filter: frontmatter => frontmatter.date <= new Date(currentDateUTC),
-				count: 20
-			}
-		],
-		'vuepress-plugin-janitor'
+		// [
+		// 	'@vuepress/google-analytics',
+		// 	{
+		// 		ga: 'UA-17277477-4' // UA-00000000-0
+		// 	}
+		// ],
+		// [
+		// 	'@vuepress/search',
+		// 	{
+		// 		searchMaxSuggestions: 10
+		// 	}
+		// ],
+		// [
+		// 	'vuepress-plugin-rss',
+		// 	{
+		// 		base_url: '/',
+		// 		site_url: 'https://microsoft.github.io/AzureTipsAndTricks',
+		// 		copyright: '2019 Microsoft',
+		// 		filter: frontmatter => frontmatter.date <= new Date(currentDateUTC),
+		// 		count: 20
+		// 	}
+		// ],
+		// 'vuepress-plugin-janitor'
 	],
 	head: [
 		[

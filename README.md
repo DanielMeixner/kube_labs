@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Welcome
 type: post
 ---
@@ -158,4 +158,4 @@ Microsoft's general trademark guidelines can be found at [http://go.microsoft.co
 Privacy information can be found at [https://privacy.microsoft.com/en-us/](https://privacy.microsoft.com/en-us/)
 
 Microsoft and any contributors reserve all others rights, whether under their respective copyrights, patents,
-or trademarks, whether by implication, estoppel or otherwise.
+or trademarks, whether by implication, estoppel or otherwise. -->
